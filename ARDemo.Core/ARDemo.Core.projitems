@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{4863C1A5-7DA7-4066-A5AB-5D3E28E308B7}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ARDemo</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)VideoCamera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ARViewController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OrientationSensor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LocationSensor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MapOverlay.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ARViewController2.cs" />
+  </ItemGroup>
+</Project>
